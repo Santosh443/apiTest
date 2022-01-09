@@ -1,0 +1,6 @@
+There is no mandatory field check for POST Eg: firstname and lastname at least one of it should be mandatory for a succesful booking but we can book with both empty.
+There is no mandatory field check for PUT similar behaviour as above.
+Check in date can be after check out date which should not be allowed.
+Past dates are allowed for check out.
+Check in and check out should have a limit like for the next 2 years or so right now there is no validation.
+There is no validation for the price and deposit fields which should be there. Eg: When deposit is true price should not be 0.
